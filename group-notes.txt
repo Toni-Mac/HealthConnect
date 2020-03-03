@@ -1,0 +1,5 @@
+Hey team! 
+These are our project development files
+
+If you have any quesitons or problems please put here and check daily
+Remember to push your changes up to the github repository
