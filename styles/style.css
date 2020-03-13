@@ -1,11 +1,12 @@
 body{
     font-family:"Arial", sans-serif; 
-    color: #FFFFFF;
+    color: #000000;
+	background: #B9DED8;
     font-size: 16px;
     line-height: 1.2em;
     margin: 0px auto;
     padding: 0px;
-     width: 100%;
+    max-width: 700px;
     }
     
     h1{
@@ -106,29 +107,44 @@ body{
       justify-content: center;
     
     }
+.navbar li{ list-style-type: none;}
     
     .navbar a {
-      width: 20%;
       color: #2D3172;
       text-align: center;
-      display: inline-block;
       padding: 10px 12px ;
       text-decoration: none;
       font-size: 12px;
-      margin: 0px auto;
+      margin: 0 auto;
+	  display: flex;
+	flex-direction: column;
     }
+#lgwelc{
+	display:inline-block;
+ 	padding: 20px 0px;
+	margin: 0 auto;
+	color: #000000;
+	font-size: 28px;
+	
+}
     
-    
-    ul #top_nav{list-style: none;}
-    
-    #main_nav a.active{
-        background-color: #4F5293;
-    }
-    main_nav li a:hover {
-    color: #ffffff;
-    width: auto;
-    background-color:#B9DED8 ;
-    }
+#login{
+ display:inline-block;
+ margin: 0 auto;
+ padding: 20px 0px;
+ background-color: #2D3172;
+ color: #ffffff;
+ font-size: 20px;
+ border-radius: 20px;
+ width: 100px;
+}
+.loginpage{
+align-content: center;
+ color: #000000;
+ display:block;
+ margin: 0 auto;
+ padding: 20px 0px;
+}
     @media only screen and (min-width: 768px) {
      .menuBtn {
      display: none;
