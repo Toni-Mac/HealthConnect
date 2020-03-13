@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>HealthConnect Account Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Reset styles -->
+<link rel="stylesheet" href="styles/reset.css">
+    <!-- Main styles -->
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -10,14 +15,19 @@
 	<header>
     <img id="logo" src="images/logo.png" width="181.4" height="59.6" alt="Logo"/> </header>
     <!-- Add sections here *PLEASE PUT CLASS NAME RELEVANT TO THE SECTION NAME -->
-<section class="loginpage"> 
-	<h1 id="lgwelc">Welcome!</h1>
-	<br>
-	 <input name="submit" type="submit" id="login" value="Login">
-	<br>
-	<input name="submit" type="submit" id="signup" value="Sign Up">
-	<br>
-	</section>
+
+<section id="outer-container">
+  <div class="inner-container">
+    
+    <h1 class="intro-text">Welcome</h1>
+	  <br>
+    <h2 class="sub-text">Please Login or Sign Up!</h2>
+    
+    <button class="log-in-btn login-btn"><i class="fa fa-login"></i>Login</button>
+    <button class="log-in-btn signup-btn"><i class="fa fa-signup"></i>Sign Up</button>
+    </div>
+</section>
+	
 <nav>
 <ul class="navbar">
     <li><a href="login.html"><img src="images/account-icon.png" width="50" height="50" alt="ACCOUNT TAB">ACCOUNT</a></li>

@@ -101,50 +101,87 @@ body{
       background-color: #ffffff;
       position: fixed;
       bottom: 0;
-      width: 100%;
+	  width: 100%;
+      margin: 0px auto;
+	  padding: 0px;
       display: flex;
       align-items: center;
       justify-content: center;
     
     }
-.navbar li{ list-style-type: none;}
+.navbar li{ 
+	padding: 0px;
+	list-style-type: none;}
     
     .navbar a {
       color: #2D3172;
       text-align: center;
-      padding: 10px 12px ;
+      padding: 10px 15px ;
       text-decoration: none;
       font-size: 12px;
-      margin: 0 auto;
+      margin: 0px auto;
+	  float: left;
 	  display: flex;
 	flex-direction: column;
     }
-#lgwelc{
-	display:inline-block;
- 	padding: 20px 0px;
-	margin: 0 auto;
-	color: #000000;
-	font-size: 28px;
-	
+
+#outer-container {
+  /* 65% iPhone dimensions */
+  width: 416px;
+  height: 500px;
+  background-size: cover;
+  margin: 40px auto;
+  color: #2D3172;
+  text-align: center;
+  padding-top: 20px;
 }
-    
-#login{
- display:inline-block;
- margin: 0 auto;
- padding: 20px 0px;
- background-color: #2D3172;
- color: #ffffff;
- font-size: 20px;
- border-radius: 20px;
- width: 100px;
+
+.inner-container {
+  width: 90%;
+  margin: 0 auto;
 }
-.loginpage{
-align-content: center;
- color: #000000;
- display:block;
- margin: 0 auto;
- padding: 20px 0px;
+
+.intro-text {
+  color: #2D3172;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 30px;
 }
+
+.sub-text {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.log-in-btn {
+  font-size: 20px;
+  position: relative;
+  width: 90%;
+  height: 60px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+}
+
+.login-btn { 
+background-color: #29A690;
+color:#ffffff;
+}
+.signup-btn { 
+background-color: #4F5293;
+color:#ffffff;}
+
+.fa-login,
+.fa-signup {
+  position: absolute;
+  left: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
     @media only screen and (min-width: 768px) {
      .menuBtn {
      display: none;
