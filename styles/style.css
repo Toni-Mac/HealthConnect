@@ -1,13 +1,18 @@
 body{
     font-family:"Arial", sans-serif; 
     color: #000000;
-	background: #B9DED8;
+	  background: #B9DED8;
     font-size: 16px;
     line-height: 1.2em;
     margin: 0px auto;
     padding: 0px;
     max-width: 700px;
+    min-height: 100vh;
     }
+main{
+    min-height: 80vh;
+    margin: 0;
+}
     
     h1{
     color: #FFF;
@@ -98,14 +103,14 @@ body{
     .navbar {
       overflow: hidden;
       background-color: #ffffff;
-      position: fixed;
-      bottom: 0;
-	  width: 100%;
+      /* position: fixed;
+      bottom: 0; */
+	    width: 100%;
       margin: 0px auto;
-	  padding: 0px;
+	    padding: 0px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
     
     }
 .navbar li{ 
@@ -123,6 +128,10 @@ body{
 	  display: flex;
 	flex-direction: column;
     }
+
+.copyright{
+  margin:0;
+}
 
 #outer-container {
   /* 65% iPhone dimensions */
@@ -212,3 +221,27 @@ input:focus {
     }
     
     
+/* FAQ STYLES */
+.page-title{
+  color: #2D1973;
+  font-size: 3em;
+  text-align: center;
+  margin: 10px;
+  line-height: 40px;
+}
+.search{
+  text-align: center;
+  margin: 15px;
+}
+.search input[type="search"]{
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+  padding: 5px 10px;
+  width: 75%;
+}
+
+.ui-accordion .ui-accordion-header{
+  background-color: #2DA690;
+  border: none;
+}
