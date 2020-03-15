@@ -1,3 +1,4 @@
+/* Main styles */
 body{
   font-family:"Arial", sans-serif; 
   color: #000000;
@@ -11,9 +12,15 @@ body{
 }
 
 main{
-  min-height: 750px;
   margin: 0;
   background-color: white;
+  padding: 50px 10px;
+  min-height: 600px;
+}
+
+.map-main{
+  margin: 0;
+  padding: 0;
 }
     
     h1{
@@ -66,15 +73,16 @@ main{
     clear:both;
      }
 footer{
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     width: 700px;
     z-index: 1;  
     display: block;
-    font-style: italic;
+    font-style: italic; */
     font-size: 10px;
     text-align: center;
     box-shadow: 0px -2px 10px 2px #00000024;
+    background-color: white;
 }
     article{
         border-bottom: 1px solid black;
@@ -229,7 +237,7 @@ footer{
 .log-in-btn {
   font-size: 20px;
   position: relative;
-  width: 350px;
+  width: 330px;
   height: 60px;
   border: none;
   margin-bottom: 20px;
@@ -255,7 +263,6 @@ color:#ffffff;}
 	text-align: center;
 	padding: 0px 40px;
 	margin: 0px auto;
-  height: 375px;
 }
 
 input:focus {
@@ -316,3 +323,80 @@ input:focus {
 .ui-accordion .info{
   height: 100px;
 }
+
+/* INFO PAGE STYLES */
+
+.Majorheader {
+  text-align: center;
+  /* margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px; */
+  background-color: #28A690;
+  height: 50%;
+  /* margin-bottom: 5px; */
+  margin: 0;
+}
+.major.information {
+  background-color: #FFFFFF;
+}
+.supplies {
+  background-color: #28A690;
+  text-align: center;
+  height: 50%;
+  /* margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 5px; */
+}
+.supplieslist {
+  background-color: #FFFFFF;
+}
+
+.minorheader {
+  height: 50%;
+  /* margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px; */
+  text-align: center;
+  background-color: #28A690;
+  /* margin-bottom: 5px; */
+}
+.minorinformation {
+  background-color: #FFFFFF;
+}
+.business {
+  width: 50%;
+  text-align: center;
+  background-color: #28A690;
+  /* margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px; */
+}
+.businessclosing {
+  width: 50%;
+  background-color: #FFFFFF;
+}
+
+.School {
+  /* margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 5px; */
+  width: 50%;
+  left: 50px;
+  text-align: center;
+  background-color: #28A690;
+  float: right;
+}
+.Schoolclosing {
+  width: 50%;
+  float: right;
+  background-color: #FFFFFF;
+}
+
+.breakline{
+  border-bottom: 1px solid black;
+}
+
+
+
+
