@@ -1,17 +1,19 @@
 body{
-    font-family:"Arial", sans-serif; 
-    color: #000000;
-	  background: #B9DED8;
-    font-size: 16px;
-    line-height: 1.2em;
-    margin: 0px auto;
-    padding: 0px;
-    max-width: 700px;
-    min-height: 100vh;
-    }
+  font-family:"Arial", sans-serif; 
+  color: #000000;
+  background: #B9DED8;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 700px;
+  /* min-height: 100vh; */
+}
+
 main{
-    min-height: 80vh;
-    margin: 0;
+  /* min-height: 80vh; */
+  margin: 0;
+  background-color: white;
 }
     
     h1{
@@ -61,12 +63,16 @@ main{
     display: block;
     clear:both;
      }
-    footer{
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 700px;
+    z-index: 1;  
     display: block;
     font-style: italic;
     font-size: 10px;
     text-align: center;
-    }
+}
     article{
         border-bottom: 1px solid black;
         padding: 10px 20px;
@@ -99,7 +105,13 @@ main{
         width:100%;
         position:absolute;
     }
-    
+/* Home page */
+.warning button{
+  width: 100%;
+  background: red;
+  color: white;
+  font-size: 2em;
+}
     .navbar {
       overflow: hidden;
       background-color: #ffffff;
@@ -135,10 +147,10 @@ main{
 
 #outer-container {
   /* 65% iPhone dimensions */
-  width: 416px;
-  height: 300px;
+  /* width: 416px;
+  height: 300px; */
   background-size: cover;
-  margin: 10px auto;
+  margin: 50px auto;
   color: #2D3172;
   text-align: center;
   padding-top: 10px;
@@ -164,7 +176,7 @@ main{
 .log-in-btn {
   font-size: 20px;
   position: relative;
-  width: 90%;
+  width: 350px;
   height: 60px;
   border: none;
   margin-bottom: 20px;
