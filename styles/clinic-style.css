@@ -1,10 +1,18 @@
 
 /*clinics page styling*/
+.clinics{
+	background-color: yellow;
+	display: flex;
+	justify-content: space-evenly;
+}
 .images {
 	width:10%;
 	display:block;
 	float:left;
-	margin: 0px 60px 20px 10px;
+    width: 80px;
+	display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
 }
 
 .images img{
@@ -24,8 +32,9 @@
 }
 
 .call {
-	float:right;
-	margin:-580px 0px 85px 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .call button {
@@ -36,8 +45,9 @@
 }
 
 .appt {
-	float:right;
-	margin:-580px 0px 85px 20px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .appt button {
