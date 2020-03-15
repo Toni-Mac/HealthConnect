@@ -2,7 +2,6 @@
 body{
   font-family:"Arial", sans-serif; 
   color: #000000;
-  background: #B9DED8;
   font-size: 16px;
   line-height: 1.2em;
   margin: 0px auto;
@@ -15,7 +14,7 @@ main{
   margin: 0;
   background-color: white;
   padding: 50px 10px;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .map-main{
@@ -146,8 +145,10 @@ footer{
 .search-bar input::placeholder { 
   color: #0000005e; 
 }
+#acctphoto{border-radius: 50px}
 
-.legend{
+
+/*.legend{
   position: absolute;
   bottom: 150px;
   right: 100px;
@@ -181,7 +182,7 @@ footer{
 }
 .legend-icons img{
   margin: 5px;
-}
+}*/
     .navbar {
       overflow: hidden;
       background-color: #ffffff;
@@ -218,8 +219,9 @@ footer{
 .inner-container {
   width: 90%;
   margin: 0 auto;
-  padding: 35px 0;
+  padding: 15px 0;
   text-align: center;
+  max-height: 250px;
 }
 
 .intro-text {
@@ -260,7 +262,7 @@ color:#ffffff;}
 }
 #benefits{
 	color: #2D3172;
-	text-align: center;
+	text-align: left;
 	padding: 0px 40px;
 	margin: 0px auto;
 }
@@ -319,6 +321,7 @@ input:focus {
 .ui-accordion .ui-accordion-header{
   background-color: #B9DED8;
   border: none;
+  max-width: 600px;
 }
 .ui-accordion .info{
   height: 100px;
@@ -412,13 +415,11 @@ input:focus {
 	justify-content: space-evenly;
 }
 .images {
-	width:10%;
-	display:block;
 	float:left;
     width: 80px;
 	display: flex;
     flex-direction: column;
-    margin: 10px 30px;
+    margin: 10px 20px;
 }
 
 .images img{
@@ -429,11 +430,11 @@ input:focus {
 .clinic_info{
 	width:65%;
 	display:block;
-	margin: -2px -20px 0px 50px;
+	margin: 1px 5px 0px 10px;
 }
 
 .clinic_info p{
-	margin:7px 0px 47px 9px;
+	margin:10px 0px 17px 5px;
 	color:black;
 }
 
