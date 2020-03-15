@@ -342,7 +342,7 @@ input:focus {
 .supplies {
   background-color: #28A690;
   text-align: center;
-  height: 50%;
+  /* height: 50%; */
   /* margin-top: 25px;
   margin-right: 25px;
   margin-left: 25px;
@@ -353,7 +353,7 @@ input:focus {
 }
 
 .minorheader {
-  height: 50%;
+  /* height: 50%; */
   /* margin-top: 25px;
   margin-right: 25px;
   margin-left: 25px; */
@@ -364,8 +364,12 @@ input:focus {
 .minorinformation {
   background-color: #FFFFFF;
 }
+.closings{
+  display: flex;
+  justify-content: space-around;
+}
 .business {
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
   background-color: #28A690;
   /* margin-top: 25px;
@@ -375,22 +379,24 @@ input:focus {
 .businessclosing {
   width: 50%;
   background-color: #FFFFFF;
+  margin: 0 5px;
 }
 
 .School {
   /* margin-top: 25px;
   margin-left: 10px;
   margin-bottom: 5px; */
-  width: 50%;
-  left: 50px;
+  /* width: 50%; */
+  /* left: 50px; */
   text-align: center;
   background-color: #28A690;
-  float: right;
+  /* float: right; */
 }
 .Schoolclosing {
   width: 50%;
-  float: right;
+  /* float: right; */
   background-color: #FFFFFF;
+  margin: 0 5px;
 }
 
 .breakline{
