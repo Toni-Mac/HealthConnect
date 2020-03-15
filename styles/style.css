@@ -296,7 +296,7 @@ input:focus {
 }
 .search{
   text-align: center;
-  margin: 15px;
+  padding: 20px 0;
 }
 .search input[type="search"]{
   border-radius: 5px;
@@ -305,8 +305,14 @@ input:focus {
   padding: 5px 10px;
   width: 75%;
 }
-
+#accordion{
+  width: 550px;
+  margin: 0 auto;
+}
 .ui-accordion .ui-accordion-header{
-  background-color: #2DA690;
+  background-color: #B9DED8;
   border: none;
+}
+.ui-accordion .info{
+  height: 100px;
 }
