@@ -6,15 +6,16 @@ body{
   line-height: 1.2em;
   margin: 0px auto;
   padding: 0px;
-  max-width: 700px;
+  /* max-width: 700px; */
   /* min-height: 100vh; */
 }
 
 main{
-  margin: 0;
+  /* margin: 0;
   background-color: white;
   padding: 50px 10px;
-  min-height: 400px;
+  min-height: 400px; */
+  height: 585px;
 }
 
 .map-main{
@@ -72,11 +73,11 @@ main{
     clear:both;
      }
 footer{
-    /* position: fixed;
+   position: fixed;
     bottom: 0;
-    width: 700px;
+    width: 375px;
     z-index: 1;  
-    display: block;
+     /* display: block;
     font-style: italic; */
     font-size: 10px;
     text-align: center;
@@ -106,7 +107,7 @@ footer{
         overflow:hidden;
         padding-bottom:100%;
         position:relative;
-        height:0;
+        height: 100%;
     }
     .map-responsive iframe{
         left:0;
@@ -126,11 +127,16 @@ footer{
 /* Legend styles */
 .search-bar{
   position: absolute;
-  top: 170px;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  width: 650px;
+  top: 195px;
   margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.search-bar .searchbar{
+  width: 85%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
   text-align: center;
 }
 .search-bar button{
@@ -315,7 +321,7 @@ input:focus {
   width: 75%;
 }
 #accordion{
-  width: 550px;
+  /* width: 550px; */
   margin: 0 auto;
 }
 .ui-accordion .ui-accordion-header{
@@ -335,12 +341,13 @@ input:focus {
   margin-right: 25px;
   margin-left: 25px; */
   background-color: #28A690;
-  height: 50%;
+  /* height: 50%; */
   /* margin-bottom: 5px; */
   margin: 0;
 }
 .major.information {
   background-color: #FFFFFF;
+  margin: 0 10px;
 }
 .supplies {
   background-color: #28A690;
